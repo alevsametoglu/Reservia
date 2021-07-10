@@ -123,6 +123,7 @@ header > nav .nav-link.active {
 /* filter */
 #filter {
   display: flex;
+  flex-wrap: wrap;
   margin: 35px 0px;
 }
 
@@ -171,5 +172,5 @@ header > nav .nav-link.active {
   border: 0.3px solid lightgray;
   border-radius: 50%;
   font-size: 12px;
-  color: #0065fc;
+  color: red;
 }
