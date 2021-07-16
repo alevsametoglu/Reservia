@@ -136,6 +136,10 @@ header>div>nav .nav-link:hover {
     border-radius: 0 15px 15px 0;
 }
 
+#search-input button i {
+    display: none;
+}
+
 
 /* filter */
 
@@ -471,7 +475,21 @@ footer article {
         margin: 0px 5px;
     }
     #search-input {
+        width: 270px;
+    }
+    #search-input input {
+        width: 150px;
+    }
+    #search-input button {
+        border-radius: 10px;
+    }
+    #search-input button span {
         display: none;
+    }
+    #search-input button i {
+        display: flex;
+        margin: 10px;
+        text-align: center;
     }
     #mobil-navbar {
         display: block;
@@ -558,7 +576,7 @@ footer article {
         flex-direction: column;
     }
     footer article {
-        width: 80%;
+        width: 70%;
         line-height: 20px;
         font-size: 12px;
     }
