@@ -464,7 +464,7 @@ footer article {
     }
 }
 
-@media (max-width: 375px) {
+@media (max-width: 635px) {
     header>div {
         padding: 5px 10px;
     }
